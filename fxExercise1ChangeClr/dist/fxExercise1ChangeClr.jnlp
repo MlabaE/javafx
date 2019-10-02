@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="fxExercise1ChangeClr.jnlp">
+  <information>
+    <title>fxExercise1ChangeClr</title>
+    <vendor>mlaba</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="fxExercise1ChangeClr.jar" size="6391" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="fxExercise1ChangeClr" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="fxexercise1changeclr.FxExercise1ChangeClr"  name="fxExercise1ChangeClr" />
+  <update check="always"/>
+</jnlp>
